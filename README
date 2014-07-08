@@ -1,0 +1,1 @@
+This is a Drupal 8 module that illustrates how you can create a custom entity configuration in Drupal 8. The resulting entity type is translatable and exportable through the configuration management system.
