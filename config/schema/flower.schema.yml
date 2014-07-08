@@ -1,0 +1,26 @@
+# Schema for the configuration files of the Flower module.
+
+flower.flower.*:
+  type: mapping
+  label: 'Flower'
+  mapping:
+    id:
+      type: string
+      label: 'Flower identifier'
+    uuid:
+      type: string
+      label: 'UUID'
+    name:
+      type: label
+      label: 'Name'
+    color:
+      type: string
+      label: 'Color'
+      translatable: true
+    petals:
+      type: integer
+      label: 'Number of petals'
+    season:
+      type: string
+      label: 'Season'
+      translatable: true

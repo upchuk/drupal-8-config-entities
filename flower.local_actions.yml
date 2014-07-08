@@ -1,0 +1,5 @@
+flower.add:
+  route_name: 'flower.add'
+  title: 'Add flower'
+  appears_on:
+    - flower.list

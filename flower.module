@@ -1,0 +1,13 @@
+<?php
+
+use \Drupal\flower\Entity\FlowerEntity;
+
+/**
+ * Menu argument loader. Returns a flower entity
+ *
+ * @param $id
+ * @return \Drupal\Core\Entity\EntityInterface|static
+ */
+function flower_load($id) {
+  return FlowerEntity::load($id);
+}

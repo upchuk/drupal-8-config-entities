@@ -1,0 +1,4 @@
+name: Flower
+core: 8.x
+description: 'Demonstrating the configuration entity system with...flowers'
+type: module

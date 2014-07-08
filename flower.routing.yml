@@ -1,0 +1,28 @@
+flower.list:
+  path: '/admin/structure/flowers'
+  defaults:
+    _entity_list: 'flower'
+    _title: 'Flowers'
+  requirements:
+    _permission: 'administer site configuration'
+flower.add:
+  path: '/admin/structure/flowers/add'
+  defaults:
+    _entity_form: 'flower.add'
+    _title: 'Add a new flower'
+  requirements:
+    _permission: 'administer site configuration'
+flower.edit:
+  path: '/admin/structure/flowers/edit/{flower}'
+  defaults:
+    _entity_form: 'flower.edit'
+    _title: 'Edit flower'
+  requirements:
+    _permission: 'administer site configuration'
+flower.delete:
+  path: '/admin/structure/flowers/delete/{flower}'
+  defaults:
+    _entity_form: 'flower.delete'
+    _title: 'Delete flower'
+  requirements:
+    _permission: 'administer site configuration'

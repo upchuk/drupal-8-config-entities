@@ -1,0 +1,5 @@
+flower.list:
+  title: Flowers
+  description: 'Administer the flower entities'
+  parent: system.admin_structure
+  route_name: flower.list
