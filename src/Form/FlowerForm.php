@@ -10,6 +10,7 @@ namespace Drupal\flower\Form;
 use Drupal\Core\Entity\EntityForm;
 use Drupal\Core\Entity\EntityInterface;
 use Drupal\Core\Entity\EntityTypeInterface;
+use Drupal\Core\Form\FormStateInterface;
 use Drupal\Core\Url;
 
 /**
@@ -22,7 +23,7 @@ class FlowerForm extends EntityForm {
    /**
    * {@inheritdoc}
    */
-  public function form(array $form, array &$form_state) {
+  public function form(array $form, FormStateInterface $form_state) {
 
     $form = parent::form($form, $form_state);
 
@@ -97,7 +98,7 @@ class FlowerForm extends EntityForm {
   /**
    * {@inheritdoc}
    */
-  public function save(array $form, array &$form_state) {
+  public function save(array $form, FormStateInterface $form_state) {
 
     $flower = $this->entity;
 
