@@ -12,14 +12,14 @@ flower.add:
     _title: 'Add a new flower'
   requirements:
     _permission: 'administer site configuration'
-flower.edit:
+entity.flower.edit:
   path: '/admin/structure/flowers/edit/{flower}'
   defaults:
     _entity_form: 'flower.edit'
     _title: 'Edit flower'
   requirements:
     _permission: 'administer site configuration'
-flower.delete:
+entity.flower.delete:
   path: '/admin/structure/flowers/delete/{flower}'
   defaults:
     _entity_form: 'flower.delete'

@@ -32,8 +32,8 @@ use Drupal\flower\FlowerInterface;
  *     "label" = "name"
  *   },
  *   links = {
- *     "edit-form" = "flower.edit",
- *     "delete-form" = "flower.delete"
+ *     "edit-form" = "entity.flower.edit_form",
+ *     "delete-form" = "entity.flower.delete_form"
  *   }
  * )
  */
